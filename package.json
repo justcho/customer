@@ -1,0 +1,28 @@
+{
+  "name": "customer-front",
+  "private": true,
+  "version": "1.0.0",
+  "description": "票务系统前端",
+  "main": "index.js",
+  "keywords": [],
+  "author": "veryinf <veryinf@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t wechat -w",
+    "build": "cross-env NODE_ENV=production remax build -t wechat"
+  },
+  "dependencies": {
+    "@cloudbase/js-sdk": "^1.5.0",
+    "annar": "^2.0.9",
+    "react": "^16.14.0",
+    "remax": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.14.2",
+    "@types/wechat-miniprogram": "^3.3.0",
+    "@cloudbase/adapter-interface": "^0.4.1",
+    "@remax/plugin-less": "^1.0.0",
+    "cross-env": "^7.0.2",
+    "typescript": "^4.1.2"
+  }
+}
